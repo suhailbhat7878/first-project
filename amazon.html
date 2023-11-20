@@ -8,9 +8,22 @@
 	<title>THE SILK ROUTE</title>
 </head>
 <body>
+
 <header>
 	<nav>
-	<h1>THE SILK </h1>
+	<h1>THE SILK ROUTE </h1>
+	<div class="login-container">
+    <h2>Login</h2>
+    <form action="your_backend_login_handler.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
 	<ul>
 	<li><a href="blog.html">ROAD TO HEAVEN</a></li>
 	<li><a href="blog.html">ROAD TO HELL</a></li>
