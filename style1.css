@@ -331,3 +331,32 @@ footer {
         .form-container button:hover {
             background-color: #45a049;
         }
+        .calculator {
+            max-width: 300px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="button"] {
+            width: 48px;
+            height: 48px;
+            font-size: 18px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        H2{
+          text-align: center;
+          color: orangered;
+          font-size: 33PX;
+          text-decoration: underline;
+        }
